@@ -13,7 +13,7 @@ namespace WebApplication11.Models
         public string? type { get; set; }
         public string? dateAcquired { get; set; }
         public int FarmerId { get; set; }
-        [ForeignKey("FarmerId")]
+        [ForeignKey("FarmerId")] 
         public Farmer Farmer { get; set; }
     }
 }
